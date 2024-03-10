@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+
+        <nav class="navbar">
+
+            <ul class="left-side">
+                <li><img src="./img/logo.png" alt="logo"></li>
+            </ul>
+
+            <ul class="right-side">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">SignUp</a>
+            <li><a href="index.html">Login</a></li>
+                
+            </ul>
+
+        </nav>
+
+        <div class="hero-box">
+            
+            <div id="expense-form">
+                <h2>Expense Tracker</h2>
+                <form id="form">
+                    <input type="text" id="expense-name" placeholder="Expense Name" required><br>
+                    <input type="number" id="expense-amount" placeholder="Amount" required><br>
+                    <button type="submit" id="submit-btn">Add Expense</button>
+                </form>
+                <ul id="expense-list"></ul>
+
+            </div>
+            <div class="grid-right-side">
+
+                <img src="./img/card1.png" alt="multile-atm-card-pic">
+
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Expense Tracker. All rights reserved.</p>
+        </footer>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>

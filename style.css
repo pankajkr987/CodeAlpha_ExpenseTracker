@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #4c286e;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar .left-side img {
+  height: 40px;
+}
+.navbar .right-side {
+  display: flex;
+}
+.navbar .right-side li {
+  margin-left: 20px;
+  list-style-type: none;
+  
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.hero-box {
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-box form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.hero-box .grid-right-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  /* Align the image to the right */
+}
+
+.grid-right-side img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+
+/* Expense Form Styles */
+#expense-form {
+  margin-bottom: 20px;
+  flex: 1;
+  padding: 40px 40px;
+
+
+}
+
+#expense-form h2 {
+  margin-bottom: 10px;
+}
+
+#expense-form input[type="text"],
+#expense-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#expense-form button {
+  width: 100%;
+  background-color: #4c286e;
+  color: white;
+  padding: 10px 0;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#expense-form button:hover {
+  background-color: #45a049;
+}
+
+#expense-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#expense-list li {
+
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#expense-list .delete-btn {
+  background-color: #334191;
+}
+
+footer {
+  background-color: #4c286e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative  ;
+  bottom: 0;
+  width: 100%;
+}
